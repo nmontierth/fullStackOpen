@@ -16,7 +16,8 @@ const Part = (props) => {
       <p>{part} {exercise}</p>
     </>
   )
-  }
+}
+
 const Content = (props) => {
   let parts = props.parts
   let exercises = props.exercises
@@ -36,10 +37,6 @@ const Total = (props) => {
   </>
   )
 }
-
-
-
-
 
 const App = () => {
   const course = 'Half Stack application development';
